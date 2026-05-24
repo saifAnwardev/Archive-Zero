@@ -7,8 +7,8 @@ import ContactSection from "@/components/ContactSection";
 
 export default function Page() {
   return (
-    <main className="relative h-[480vh] overflow-x-hidden bg-[#030303] text-[#eee8de]">
-      <section className="relative h-[480vh]">
+    <main className="relative h-[560vh] overflow-x-hidden bg-[#030303] text-[#eee8de]">
+      <section className="relative h-[560vh]">
 
         <div className="sticky top-0 h-screen">
           <HeroExperience />
@@ -76,7 +76,7 @@ export default function Page() {
           <AboutSection />
         </section>
 
-        <section id="contact" className="absolute top-[380vh] h-screen w-full z-20">
+        <section id="contact" className="absolute top-[460vh] h-screen w-full z-20">
           <ContactSection />
         </section>
 
